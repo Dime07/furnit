@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: Poppins;
+}
+nav{
+    background-color: #CBE0EE;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.left-nav{
+    padding-left: 80px;
+}
+
+.left-nav img{
+    width: 12%;
+}
+
+.left-nav a{
+    margin-left: 79px;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #233541;;
+}
+
+.right-nav{
+    margin-right: 80px;
+    width: 30%;
+}
+
+.search-bar{
+    width: 60%;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    
+}
+
+.btn-login{
+    background-color: #233541;
+    border-radius: 10px;
+    padding:4px 30px 4px 30px;
+    color: white;
+    border: none;
+    font: 16px;
+    margin-left: 30px;
+}
+
+main{
+    margin: 0px;
+}
+
+.hero-sec{
+    background: linear-gradient(to bottom, #CBE0EE 70%, white 50%);
+}
+
+.title{
+    text-align: center;
+}
+
+.big-title{
+    margin: 0px;
+    padding-top:80px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #233541;
+}
+
+.tiny-title{
+    color: #233541;
+    margin: 0px;
+}
+
+.image-slide{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.image-slide li{
+    list-style-type: none;
+    
+}
+
+.image-slide li img{
+    justify-content: space-between;
+    width: 90%;
+}
+
+.categories{
+    padding: 0px 80px 0px 80px;
+}
+
+.title-cat{
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #233541;
+}
+
+.cat-wrap{
+    height: 444px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* LEFT CATEGORIES */
+
+.left-cat{
+    width: 33%;
+    height:fit-content;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.mini-cat{
+    color: white;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.left-cat img{
+    filter: brightness(50%);
+    width: 90%;
+    border-radius: 20px;
+}
+
+/* CENTER CATEGORIES */
+.center-cat{
+    background-color: rgb(0, 132, 255);
+    width: 33%;
+    height:100%;
+}
+
+.content{
+    width: 33%;
+    height:fit-content;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.content img{
+    filter: brightness(50%);
+    border-radius: 20px;
+}
+
+.right-cat{
+    background-color: rgb(225, 0, 255);
+    width: 33%;
+    height:100%;
+}
+
+
+
+
+
+
